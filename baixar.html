@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08110f">
+  <meta name="description" content="Baixe Synir Þrumu para Windows e veja, passo a passo, como extrair o zip e abrir o jogo.">
+  <title>Baixar Synir Þrumu — passo a passo</title>
+  <link rel="icon" type="image/png" href="assets/synir-thrumu-icon.png">
+  <link rel="stylesheet" href="css/style.css?v=20261111">
+  <style>
+    .dl-top { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .9rem clamp(1rem, 4vw, 3rem); background: rgba(7,16,14,.94); border-bottom: 1px solid var(--line); backdrop-filter: blur(10px); }
+    .dl-top a.voltar { color: var(--bone-dim); font-size: .74rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+    .dl-top a.voltar:hover { color: var(--bone); }
+    .dl-hero { width: min(980px, calc(100% - 2.5rem)); margin: 0 auto; padding: clamp(3rem, 7vw, 6rem) 0 2rem; text-align: center; }
+    .dl-hero h1 { max-width: none; margin: 0 auto 1rem; font-size: clamp(2.2rem, 5vw, 4.4rem); }
+    .dl-hero p.lead { max-width: 640px; margin: 0 auto 2rem; color: var(--bone-dim); }
+    .dl-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem 1.6rem; margin-top: 1.2rem; color: var(--bone-dim); font-size: .78rem; }
+    .dl-meta b { color: var(--gold-bright); }
+    .dl-steps { width: min(980px, calc(100% - 2.5rem)); margin: 0 auto; padding: 2rem 0 1rem; list-style: none; counter-reset: passo; display: grid; gap: 1rem; }
+    .dl-steps li { position: relative; padding: 1.6rem 1.6rem 1.6rem 5.2rem; counter-increment: passo; background: linear-gradient(145deg, rgba(26,42,36,.92), rgba(12,22,19,.96)); border: 1px solid var(--line); }
+    .dl-steps li::before { content: counter(passo); position: absolute; left: 1.4rem; top: 1.3rem; display: grid; place-items: center; width: 2.6rem; height: 2.6rem; color: #17120b; background: var(--gold-bright); font: 700 1.3rem var(--serif); transform: rotate(45deg); }
+    .dl-steps li::before { box-shadow: 0 0 0 4px rgba(196,147,78,.15); }
+    .dl-steps h3 { margin: 0 0 .5rem; font-size: 1.15rem; text-transform: uppercase; }
+    .dl-steps p { margin: .4rem 0; color: var(--bone-dim); }
+    .dl-steps kbd, .dl-steps code { padding: .1rem .45rem; color: var(--bone); background: #1b2824; border: 1px solid var(--line); border-radius: 3px; font-size: .85em; }
+    .dl-aviso { margin-top: .8rem; padding: .9rem 1rem; color: var(--bone); background: rgba(196,147,78,.09); border-left: 3px solid var(--gold); font-size: .9rem; }
+    .dl-dicas { width: min(980px, calc(100% - 2.5rem)); margin: 0 auto; padding: 2rem 0 5rem; }
+    .dl-dicas h2 { margin-bottom: 1.2rem; font-size: clamp(1.4rem, 3vw, 2.2rem); text-transform: uppercase; }
+    .dl-dicas details { border-bottom: 1px solid var(--line); }
+    .dl-dicas summary { padding: 1.1rem 0; cursor: pointer; font: 600 .9rem var(--serif); text-transform: uppercase; }
+    .dl-dicas details p { margin: 0 0 1.2rem; color: var(--bone-dim); }
+    @media (max-width: 600px) { .dl-steps li { padding: 1.4rem 1.2rem 1.4rem 4.4rem; } .dl-steps li::before { left: 1rem; } }
+  </style>
+</head>
+<body>
+  <header class="dl-top">
+    <a class="brand" href="index.html" aria-label="Synir Þrumu — início">
+      <img class="brand-shield" src="assets/synir-thrumu-icon.png" alt="" aria-hidden="true">
+      <span><b>Synir Þrumu</b><small>filhos do trovão</small></span>
+    </a>
+    <a class="voltar" href="index.html">‹ Voltar ao site</a>
+  </header>
+
+  <main>
+    <section class="dl-hero">
+      <p class="eyebrow">Para Windows 10 e 11</p>
+      <h1>Baixe o jogo e <em>comece a lutar</em></h1>
+      <p class="lead">Não precisa instalar nada. É só baixar o arquivo, extrair e abrir. Siga os quatro passos abaixo.</p>
+      <a class="button button-primary" href="https://github.com/Almend3616/synir-thrumu/releases/latest/download/Synir-rumu-build.zip" download><span>Baixar o jogo (.zip)</span></a>
+      <div class="dl-meta">
+        <span><b>Versão</b> 1.0</span>
+        <span><b>Tamanho</b> cerca de 163 MB</span>
+        <span><b>Sistema</b> Windows 64 bits</span>
+      </div>
+    </section>
+
+    <ol class="dl-steps" aria-label="Passo a passo">
+      <li>
+        <h3>Baixe o arquivo</h3>
+        <p>Clique no botão <b>Baixar o jogo (.zip)</b> acima. O arquivo se chama <code>Synir-rumu-build.zip</code> e vai para a pasta <b>Downloads</b>. Ele é grande, então pode levar alguns minutos.</p>
+      </li>
+      <li>
+        <h3>Extraia o zip</h3>
+        <p>Abra a pasta <b>Downloads</b>, clique com o <b>botão direito</b> no arquivo <code>Synir-rumu-build.zip</code> e escolha <b>Extrair tudo…</b>. Na janela que abrir, clique em <b>Extrair</b>.</p>
+        <p class="dl-aviso">Não abra o jogo de dentro do zip. Ele só funciona depois de extraído, com a pasta inteira.</p>
+      </li>
+      <li>
+        <h3>Abra o jogo</h3>
+        <p>Entre na pasta <code>Synir-rumu-build</code> que apareceu e dê <b>dois cliques</b> em <code>Synir Þrumu.exe</code> (o ícone com o escudo e o capacete viking).</p>
+        <p class="dl-aviso">Mantenha o <code>.exe</code> dentro da pasta, junto com as outras pastas e arquivos. Se quiser um atalho, clique com o botão direito no <code>.exe</code> → <b>Enviar para</b> → <b>Área de trabalho (criar atalho)</b>.</p>
+      </li>
+      <li>
+        <h3>Se o Windows avisar "protegeu seu computador"</h3>
+        <p>Na primeira vez, o Windows pode mostrar uma tela azul dizendo <b>“O Windows protegeu o computador”</b>. Isso acontece porque o jogo é independente e ainda não tem assinatura digital.</p>
+        <p>Clique em <b>Mais informações</b> e depois em <b>Executar assim mesmo</b>. O jogo abre normalmente e o aviso não volta mais.</p>
+      </li>
+    </ol>
+
+    <section class="dl-dicas">
+      <h2>Dicas e perguntas rápidas</h2>
+      <details open>
+        <summary>Por onde começo dentro do jogo?</summary>
+        <p>No menu, escolha <b>Novo jogo</b> para construir sua vila, ou <b>Batalha</b> para testar o seu clã contra uma horda de goblins. Na Batalha, o jogo explica cada botão: passe o mouse sobre qualquer item na tela de preparação.</p>
+      </details>
+      <details>
+        <summary>O jogo não abre ou fecha sozinho</summary>
+        <p>Confirme que você extraiu o zip (passo 2) e que está abrindo o <code>.exe</code> de dentro da pasta extraída. Tente também clicar com o botão direito no <code>.exe</code> → <b>Executar como administrador</b>. Atualizar o driver da placa de vídeo costuma resolver travamentos.</p>
+      </details>
+      <details>
+        <summary>O antivírus bloqueou o arquivo</summary>
+        <p>Alguns antivírus desconfiam de jogos novos e sem assinatura. Se isso acontecer, adicione a pasta <code>Synir-rumu-build</code> às exceções do antivírus, ou use o passo 4 acima para o Windows Defender.</p>
+      </details>
+      <details>
+        <summary>Como atualizo quando sair uma versão nova?</summary>
+        <p>Volte a esta página, baixe o zip novamente e extraia por cima, ou em outra pasta. O botão sempre entrega a versão mais recente.</p>
+      </details>
+      <details>
+        <summary>Quais são os controles na Batalha?</summary>
+        <p>Teclas <kbd>1</kbd> a <kbd>9</kbd> selecionam grupos, <kbd>M</kbd> move, <kbd>E</kbd> ataca, <kbd>T</kbd> mantém posição, <kbd>R</kbd> recua, <kbd>Espaço</kbd> pausa e <kbd>F1</kbd>/<kbd>F2</kbd>/<kbd>F3</kbd> mudam a velocidade. Arraste com o mouse para selecionar uma área no chão. A tecla de cada ação aparece escrita no botão.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="index.html"><img class="brand-shield" src="assets/synir-thrumu-icon.png" alt="" aria-hidden="true"><span><b>Synir Þrumu</b><small>filhos do trovão</small></span></a><p>Simulador medieval de construção, sobrevivência e estratégia.</p><p class="footer-runes" aria-hidden="true">ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ</p></footer>
+</body>
+</html>
