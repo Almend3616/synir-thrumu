@@ -73,6 +73,15 @@ filterButtons.forEach((button) => {
   });
 });
 
+document.querySelectorAll('[data-open-wiki]').forEach((link) => {
+  link.addEventListener('click', () => {
+    const target = filterButtons.find((button) => button.dataset.wikiFilter === link.dataset.openWiki);
+    if (search) search.value = '';
+    target?.click();
+    wikiCards.filter((card) => !card.hidden).forEach((card) => card.classList.add('visible'));
+  });
+});
+
 search?.addEventListener('input', applyWikiFilter);
 document.addEventListener('keydown', (event) => {
   if (event.key === '/' && document.activeElement !== search) {

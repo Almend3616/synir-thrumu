@@ -8,8 +8,8 @@
   <title>Synir Þrumu — Construa. Sobreviva. Lidere.</title>
   <link rel="icon" type="image/png" href="assets/synir-thrumu-icon.png">
   <link rel="apple-touch-icon" href="assets/synir-thrumu-icon.png">
-  <link rel="stylesheet" href="css/style.css?v=20261111">
-  <script src="js/main.js?v=20261110" defer></script>
+  <link rel="stylesheet" href="css/style.css?v=20261123">
+  <script src="js/main.js?v=20261123" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -127,6 +127,102 @@
             <p>Selecione várias unidades com o mouse, filtre por função e dê ordens diretamente no campo de batalha. A preparação e a formação certa importam tanto quanto o equipamento.</p>
             <div class="tactic-grid"><span><b>Linha de frente</b> Em linha • Em V • Parede de escudos • Agrupar • Espalhar</span><span><b>Artilharia</b> Linha de tiro • Espalhar • Agrupar • Correr • Recuar</span><span><b>Seleção rápida</b> Somente guerreiros • arqueiros • besteiros • todos</span></div>
           </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="invasão goblin acampamento tendas ano segundo bando chefe reforço nível">
+            <span class="card-rune">ᛉ</span><p class="card-kicker">Invasão goblin</p><h3>O bando chega no segundo ano</h3>
+            <p>No começo do Ano 2, cinco goblins montam acampamento longe da vila: um chefe, um ágil e três comuns. De dia ficam nas tendas, com um ou outro andando por perto. Dentro das tendas eles recuperam vida.</p>
+            <div class="tactic-grid"><span><b>Distância</b> pelo menos 52 quadrados da fogueira inicial, em lugar alcançável a pé</span><span><b>Reforços</b> +1 goblin a cada 2 estações, até 14</span><span><b>Evolução</b> o acampamento sobe 1 nível a cada ano no lugar</span><span><b>Fim da ameaça</b> derrote todos e o acampamento cai de vez</span></div>
+          </article>
+          <article class="wiki-card reveal" data-category="guerra" data-keywords="saque roubo noite comida materiais armas ferramentas moedas animais cercado recuperar">
+            <span class="card-rune">ᚱ</span><p class="card-kicker">Invasão goblin</p><h3>O saque da noite</h3>
+            <p>Uma vez por noite, entre 22h e 3h, de 2 a 5 goblins saem para roubar. O chefe fica no acampamento.</p>
+            <ul><li><b>Comida:</b> vão ao depósito de alimentos.</li><li><b>Materiais:</b> levam recursos, moedas, armas e às vezes uma ferramenta sem uso.</li><li><b>Animais:</b> levam bichos dos cercados.</li><li>Matar quem carrega o saque devolve a carga.</li><li>Destruir o acampamento devolve o que sobrou. O bando come a comida roubada a cada dia.</li></ul>
+          </article>
+          <article class="wiki-card reveal" data-category="guerra" data-keywords="alerta perseguição fugir povoado crianças dormindo casa defesa atacar acampamento flanco">
+            <span class="card-rune">ᛞ</span><p class="card-kicker">Invasão goblin</p><h3>Quando eles atacam</h3>
+            <p>Quem chega a 9 quadrados das tendas faz o bando inteiro sair. Eles perseguem, mas têm limites.</p>
+            <ul><li>Não se afastam mais de 26 quadrados do acampamento.</li><li>Desistem a 7 quadrados de qualquer construção, exceto quando estão saqueando.</li><li>Crianças e quem dorme em casa não são alvo.</li><li>Morador sem arma foge para casa.</li><li>Atacar um goblin ocupado com outro soldado dá +20% de dano corpo a corpo.</li></ul>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="tipos goblin chefe líder lanceiro adaga ágil vida dano alcance velocidade grito de guerra estocada investida">
+            <span class="card-rune">ᛏ</span><p class="card-kicker">Bestiário</p><h3>Os goblins do acampamento</h3>
+            <div class="war-table"><table><thead><tr><th>Tipo</th><th>Vida</th><th>Dano</th><th>Alcance</th><th>Veloc.</th><th>Golpe especial</th></tr></thead><tbody>
+              <tr><th>Chefe</th><td>105</td><td>12</td><td>1,65</td><td>2,05</td><td><b>Grito de Guerra:</b> +10% de ataque aos próximos por 4 s, a cada 18 s</td></tr>
+              <tr><th>Lanceiro</th><td>44</td><td>7</td><td>1,75</td><td>2,20</td><td><b>Estocada em Linha:</b> 135% de dano em linha, com aviso de 0,7 s</td></tr>
+              <tr><th>Adaga</th><td>44</td><td>7</td><td>1,15</td><td>2,35</td><td>Prefere arqueiros e quem está sem escudo, no máximo 3 no mesmo alvo</td></tr>
+              <tr><th>Ágil</th><td>36</td><td>6</td><td>1,15</td><td>2,70</td><td><b>Investida Curta:</b> salta no alvo com 130% de dano, com aviso de 0,58 s</td></tr>
+            </tbody></table></div>
+            <p>Valores no nível 1. Cada nível soma <b>+22% de vida</b>, <b>+18% de dano</b> e <b>+2 de armadura</b>. O chefe tem mais 3 de armadura.</p>
+            <div class="tactic-grid"><span><b>Nível 1</b> adagas de osso, lanças leves e trapos</span><span><b>Nível 2</b> lanças e adagas de ferro</span><span><b>Nível 3</b> ferro e escudos, menos nos ágeis</span><span><b>Nível 4+</b> todos com armas e escudos de ferro</span></div>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="armas espada machado lança arco escudo ataque defesa alcance recarga equipamento">
+            <span class="card-rune">ᚠ</span><p class="card-kicker">Arsenal</p><h3>Armas e escudos</h3>
+            <div class="war-table"><table><thead><tr><th>Item</th><th>Ataque</th><th>Defesa</th><th>Alcance</th><th>Recarga</th></tr></thead><tbody>
+              <tr><th>Machado de guerra</th><td>16</td><td>–</td><td>1,25</td><td>1,35 s</td></tr>
+              <tr><th>Espada</th><td>14</td><td>–</td><td>1,25</td><td>1,00 s</td></tr>
+              <tr><th>Lança</th><td>12</td><td>–</td><td>1,75</td><td>1,15 s</td></tr>
+              <tr><th>Machado de pedra</th><td>10</td><td>–</td><td>1,20</td><td>1,40 s</td></tr>
+              <tr><th>Arco longo</th><td>10</td><td>–</td><td>10</td><td>1,55 s</td></tr>
+              <tr><th>Lança de pedra</th><td>8</td><td>–</td><td>1,75</td><td>1,20 s</td></tr>
+              <tr><th>Arco simples</th><td>7</td><td>–</td><td>8</td><td>1,80 s</td></tr>
+              <tr><th>Punhos</th><td>3</td><td>–</td><td>1,10</td><td>1,30 s</td></tr>
+              <tr><th>Escudo reforçado</th><td>–</td><td>7</td><td>–</td><td>–</td></tr>
+              <tr><th>Escudo de tábuas</th><td>–</td><td>4</td><td>–</td><td>–</td></tr>
+            </tbody></table></div>
+            <p>Arqueiros não usam escudo e precisam de linha de tiro livre. Construções altas, morros e rochas grandes bloqueiam a flecha.</p>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="hird plantel formação parede pinça avante recuar espalhar agrupar postura foco prioridade alvo arrastar quadradinhos conselho">
+            <span class="card-rune">ᛒ</span><p class="card-kicker">Exército</p><h3>A Hird e as formações</h3>
+            <p>Aperte <b>E</b> para o exército e <b>K</b> para o Conselho. No plantel, arraste cada guerreiro para um quadradinho do campo de 17 x 10. As duas fileiras da frente são de avanço, e cada trecho contínuo vira um grupo.</p>
+            <div class="war-table"><table><thead><tr><th>Formação</th><th>Ataque</th><th>Resistência</th><th>Velocidade</th></tr></thead><tbody>
+              <tr><th>Parede de escudos</th><td>−12%</td><td>+45%</td><td>−22%</td></tr>
+              <tr><th>Pinça (flancos)</th><td>+22%</td><td>−10%</td><td>+12%</td></tr>
+              <tr><th>Avante</th><td>+35%</td><td>−18%</td><td>+10%</td></tr>
+              <tr><th>Recuar</th><td>−40%</td><td>+15%</td><td>+35%</td></tr>
+              <tr><th>Espalhar</th><td>−8%</td><td>+20%</td><td>0</td></tr>
+              <tr><th>Agrupar</th><td>+15%</td><td>+10%</td><td>−12%</td></tr>
+            </tbody></table></div>
+            <div class="tactic-grid"><span><b>Posturas</b> avançar, manter posição ou flanquear</span><span><b>Foco</b> mais próximo, chefe, mais fraco, lanceiros ou ágeis</span></div>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="especialidade machadada arco disparo concentrado leque passo de esquiva guarda firme estocada contenção requisitos atributos">
+            <span class="card-rune">ᛁ</span><p class="card-kicker">Treino</p><h3>Especialidades de combate</h3>
+            <p>Todas exigem um Guerreiro com nível Muito bom na arma e os atributos abaixo.</p>
+            <div class="tactic-grid"><span><b>Machadada em Arco</b> 140% à frente e 55% nas diagonais, a cada 12 s • Força 15, Resistência 13</span><span><b>Disparo Concentrado</b> rajada de flechas em um alvo, a cada 12 s • Agilidade 14, Disciplina 14</span><span><b>Disparo em Leque</b> 100% no alvo e até 2 flechas de 55%, a cada 15 s • Agilidade 14, Decisões 15</span><span><b>Passo de Esquiva</b> evita até 2 golpes, a cada 18 s • Agilidade 16, Velocidade 14</span><span><b>Guarda Firme</b> passiva, −6% de dano frontal com escudo e aliado perto • Disciplina 15, Trabalho em equipe 14</span><span><b>Estocada de Contenção</b> passiva, +8% de dano de lança em quem avança de frente • Força 14, Decisões 14</span></div>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="guerras entre reinos convite diplomacia corvo urso lobo ragna halvard sigrun passagem covil confiança prazo recusar novo 2.7">
+            <span class="card-rune">ᛟ</span><p class="card-kicker">Novo na 2.7</p><h3>Guerras entre Reinos</h3>
+            <p>Depois da eleição do Lord, os reinos vizinhos enviam mensageiros pedindo ajuda contra goblins. O primeiro pedido é sempre a <b>Passagem do Corvo</b>. Os outros pedem para defender uma passagem ou destruir um covil.</p>
+            <div class="tactic-grid"><span><b>Reino do Corvo</b> Rainha Ragna • defensivo</span><span><b>Reino do Urso</b> Rei Halvard • agressivo</span><span><b>Reino do Lobo</b> Jarl Sigrun • caçadores</span><span><b>Pedidos</b> um de cada vez, com pelo menos 3 dias entre eles e 4 dias para partir</span></div>
+            <div class="war-table"><table><thead><tr><th>Missão</th><th>Quando aparece</th><th>Mín. de pessoas</th><th>Moedas</th><th>Comida</th></tr></thead><tbody>
+              <tr><th>Introdução</th><td>Primeiro pedido</td><td>2</td><td>20</td><td>15</td></tr>
+              <tr><th>Normal</th><td>Depois da primeira</td><td>3</td><td>45</td><td>25</td></tr>
+              <tr><th>Arriscada</th><td>Confiança 20 ou mais</td><td>4</td><td>70</td><td>35</td></tr>
+            </tbody></table></div>
+            <p>Depois do primeiro pedido, a recompensa cai 25% quando o transporte é do aliado. Recusar não pune na primeira vez com cada reino, depois custa 1 de confiança. Prometer ajuda e não partir custa 5.</p>
+          </article>
+          <article class="wiki-card reveal" data-category="guerra" data-keywords="plano de batalha estratégia linha duas linhas parede ruptura central flancos reserva investida total">
+            <span class="card-rune">ᚨ</span><p class="card-kicker">Guerras entre Reinos</p><h3>Plano de batalha</h3>
+            <ul><li><b>Linha:</b> frente larga, pouca profundidade.</li><li><b>Duas linhas:</b> a segunda substitui a primeira.</li><li><b>Parede:</b> forte de frente, fraca se cercada.</li><li><b>Ruptura central:</b> o meio avança e as alas seguram.</li><li><b>Flancos:</b> o centro fixa e as alas contornam.</li><li><b>Reserva:</b> um grupo entra quando a frente sofre.</li><li><b>Investida total:</b> pressão rápida, retaguarda exposta.</li></ul>
+          </article>
+          <article class="wiki-card reveal" data-category="guerra" data-keywords="rei lord comando autonomia estrita limitada adaptativa decisões liderança disciplina substituto ordens atraso retirada moral">
+            <span class="card-rune">ᛟ</span><p class="card-kicker">Guerras entre Reinos</p><h3>O rei no comando</h3>
+            <p>O rei interpreta o seu plano. Decisões é o atributo que mais pesa, seguido de Liderança, Disciplina e Trabalho em equipe.</p>
+            <ul><li><b>Estrita:</b> segue o plano e só ajusta o caminho.</li><li><b>Limitada:</b> reposiciona, protege arqueiros e usa a reserva.</li><li><b>Adaptativa:</b> também abandona uma rota ruim.</li><li>Novas ordens levam de 1 a 5 s para chegar.</li><li>Se o rei cair, o substituto assume. Sem substituto, todos seguram a posição.</li><li>Por padrão, um grupo se retira com moral em 25% ou 60% de perdas.</li></ul>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra producao" data-keywords="frota navio barco costeiro guerra transporte tripulação navegantes carga provisões refeições viagem inverno cais reparo">
+            <span class="card-rune">ᛚ</span><p class="card-kicker">Guerras entre Reinos</p><h3>Frota e viagem</h3>
+            <div class="war-table"><table><thead><tr><th>Navio</th><th>Vagas</th><th>Tripulação</th><th>Carga</th><th>Construção</th></tr></thead><tbody>
+              <tr><th>Barco costeiro</th><td>8</td><td>2</td><td>40</td><td>2 dias</td></tr>
+              <tr><th>Navio de guerra</th><td>20</td><td>4</td><td>100</td><td>5 dias</td></tr>
+              <tr><th>Navio de transporte</th><td>30</td><td>5</td><td>180</td><td>6 dias</td></tr>
+            </tbody></table></div>
+            <p>Navios precisam do Cais e usam madeira, minério, fibra e corda. Os navegantes saem de quem já vai na missão.</p>
+            <div class="tactic-grid"><span><b>Viagem</b> 2 dias de ida, 1 de batalha e 2 de volta</span><span><b>Provisões</b> 3 refeições por pessoa ao dia, mais 1 dia de folga</span><span><b>Na vila</b> ficam pelo menos 2 adultos</span><span><b>Inverno</b> campanhas marítimas não partem</span></div>
+          </article>
+          <article class="wiki-card wiki-card-wide reveal" data-category="guerra" data-keywords="campo de batalha terreno rio ponte vau bosque rocha elevação montanha ruínas horda debandada resultado relatório feridos mortos xp recompensa confiança">
+            <span class="card-rune">ᛏ</span><p class="card-kicker">Guerras entre Reinos</p><h3>Campo de batalha e retorno</h3>
+            <p>Cada campo é gerado com rio, ponte, vau, bosque, rochas, elevações, montanhas ou ruínas. Ninguém atravessa água fora de uma ponte ou vau. A horda foge quando fica muito em desvantagem, e bem mais cedo se o líder cair.</p>
+            <div class="tactic-grid"><span><b>Vitória</b> recompensa completa, 60 de XP e até +15 de confiança</span><span><b>Sem vitória, promessa cumprida</b> metade da recompensa, 25 de XP e +3 de confiança</span><span><b>Feridos</b> voltam com menos vida e ficam 2 dias em recuperação</span><span><b>Mortos</b> não voltam para a vila</span></div>
+            <p>No fim, o relatório da missão conta o que aconteceu com cada pessoa, as decisões do rei e o que a vila ganhou.</p>
+          </article>
           <article class="wiki-card reveal" data-category="colonia" data-keywords="saga metas objetivos recompensa freyja progresso casa marcenaria despensa inverno templo cais expedição lenda">
             <span class="card-rune">ᛟ</span><p class="card-kicker">Novo na 2.0</p><h3>A saga da vila</h3>
             <p>No alto da tela fica a saga: uma meta de cada vez, com barra de progresso e recompensa. Quando ela se cumpre, a Freyja vem contar e a próxima aparece.</p>
@@ -184,7 +280,7 @@
 
     <section id="batalha" class="battle-section">
       <div class="battle-art" role="img" aria-label="Guerreiros nórdicos em parede de escudos enfrentando goblins"></div>
-      <div class="battle-content reveal"><p class="eyebrow">O aço decide o que a muralha não conteve</p><h2>Dê ordens.<br><em>Mantenha a linha.</em></h2><p>Goblins se movem, atacam e defendem seus assentamentos. Seus guerreiros respondem em tempo real: forme uma parede de escudos, proteja os arqueiros, avance em V ou recue antes que a linha se rompa.</p><div class="battle-orders"><span>01 <b>Selecione</b></span><span>02 <b>Forme</b></span><span>03 <b>Comande</b></span></div></div>
+      <div class="battle-content reveal"><p class="eyebrow">O aço decide o que a muralha não conteve</p><h2>Dê ordens.<br><em>Mantenha a linha.</em></h2><p>A partir do segundo ano, goblins acampam perto da vila e saem à noite para roubar. Monte sua Hird, destrua o acampamento e, depois de eleger um Lord, leve seus guerreiros para ajudar os reinos vizinhos.</p><div class="battle-orders"><span>01 <b>Selecione</b></span><span>02 <b>Forme</b></span><span>03 <b>Comande</b></span></div><a class="button button-ghost battle-wiki-link" href="#wiki" data-open-wiki="guerra"><span>Ver o guia de guerra</span></a></div>
     </section>
 
     <section id="galeria" class="section gallery-section">
@@ -197,7 +293,7 @@
       <div class="faq-list reveal">
         <details><summary>Qual é o objetivo principal do jogo?<span>+</span></summary><p>Começar com cinco pessoas em um pequeno acampamento e transformar o local em um vilarejo, uma cidade e, por fim, um assentamento capaz de sobreviver às estações e aos inimigos.</p></details>
         <details><summary>Posso escolher quem executa cada trabalho?<span>+</span></summary><p>Sim. Os aldeões podem ser selecionados individualmente ou em grupo para coletar recursos, construir, abrir estradas, arar campos e assumir ofícios.</p></details>
-        <details><summary>Como funciona o combate?<span>+</span></summary><p>O comando é em tempo real, com seleção por marcação, filtros por tipo de unidade e formações rápidas para linha de frente e tropas de longo alcance.</p></details>
+        <details><summary>Como funciona o combate?<span>+</span></summary><p>Na vila, você comanda a Hird em tempo real contra o acampamento goblin. Nas Guerras entre Reinos, você monta o plantel e o plano, e o rei conduz a batalha conforme os atributos dele. O capítulo Guerra da wiki traz todos os números.</p></details>
         <details><summary>O jogo já está finalizado?<span>+</span></summary><p>Synir Þrumu está em desenvolvimento ativo. Sistemas, arte, desempenho e equilíbrio continuam sendo refinados a cada nova versão.</p></details>
       </div>
     </section>
